@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mons';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+span {
+    display: inline-block;
+}

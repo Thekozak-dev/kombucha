@@ -1,0 +1,88 @@
+.story {
+    background: $orange;
+    padding-top: 60px;
+    box-sizing: border-box;
+
+
+    &__container-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 74px;
+    }
+
+    &__title-small {
+        font-family: 'mons';
+        font-weight: 500;
+        font-size: 14px;
+        color: white;
+    }
+
+    &__title-big {
+        font-family: 'bebas';
+        font-size: 48px;
+        color: white;
+    }
+
+    &__container-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+        width: calc(100% - 100px - 100px);
+        margin: 0 auto  185px ;
+
+    }
+
+    &__container-left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__container-right {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__txt-founders {
+        font-family: 'mons';
+        font-weight: 500;
+        font-size: 14px;
+        color: white;
+    }
+
+    &__txt-title {
+        font-family: 'bebas';
+        font-size: 42px;
+        color: white;
+    }
+
+    &__txt-main {
+        font-family: 'mons';
+        font-size: 18px;
+        line-height: 27px;
+        color: white;
+        max-width: 500px;
+    }
+
+    &__wrapper-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__btn {
+        padding: 16px 43px;
+        font-family: 'mons';
+        font-size: 14px;
+        font-weight: 600;
+        border: 2px solid white;
+        border-radius: 14px;
+        background: none;
+        color: white;
+        margin-bottom: 60px;
+    }
+}

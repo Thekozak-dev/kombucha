@@ -1,0 +1,70 @@
+.flavorus {
+    
+    &__wrapper {
+        width: calc(100% - 100px - 100px);
+        margin: 0px auto 60px;
+        display: flex;
+        gap: 30px;
+    }
+
+    &__container-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    &__txt-top {
+        font-family: 'mons';
+        font-size: 14px;
+        color: $orange;
+    }
+
+    &__title-top {
+        font-family: 'bebas';
+        font-size: 42px;
+    }
+
+    &__container-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__wrapper-txt {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    &__container-txt {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    &__title {
+        font-family: 'bebas';
+        font-size: 22px;
+    }
+
+    &__txt {
+        font-family: 'mons';
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    &__container-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 120px;
+    }
+
+    &__btn {
+        font-family: 'mons';
+        color: white;
+        background: black;
+        border-radius: 14px;
+        padding: 16px 46px;
+    }
+}

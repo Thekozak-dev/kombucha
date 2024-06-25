@@ -1,0 +1,73 @@
+.cane {
+    position: relative;
+    margin-bottom: 120px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        width: calc(100% - 100px - 100px);
+        margin: 0 auto ;
+    }
+
+    &__container-info {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    &__title {
+        font-family: 'bebas';
+        font-size: 48px;
+        line-height: 57px;
+        max-width: 395px;
+    }
+
+    
+
+    &__wrapper-txt {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__container-txt {
+        display: flex;
+        align-items: center;
+    }
+
+    &__btn {
+        font-family: 'mons';
+        font-weight: 600;
+        font-size: 14px;
+        padding: 16px 46px;
+        color: white;
+        background: black;
+        border-radius: 14px;
+    }
+
+    &__img-large {
+        position: absolute;
+        top: 193px;
+        right: 2px;
+    }
+
+    &__img-medium {
+        position: absolute;
+        top: 327px;
+        right: 126px;
+    }
+
+    &__img-small {
+        position: absolute;
+        top: 413px;
+        right: 99px;
+    }
+
+    &__img-car {
+        position: absolute;
+        top: 529px;
+        left: -15px;
+        z-index: 2;
+    }
+}

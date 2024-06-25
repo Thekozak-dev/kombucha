@@ -1,0 +1,69 @@
+.kids {
+
+    &__wrapper {
+        width: calc(100% - 100px - 100px);
+        margin: 0px auto 60px;
+        display: flex;
+        gap: 30px;
+    }
+
+
+    &__container-right {
+        position: relative;
+        background: $yellow;
+        border-radius: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &__container-txt {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    &__title {
+        font-family: 'bebas';
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    &__txt {
+        font-family: 'mons';
+        font-size: 18px;
+        line-height: 27px;
+        
+    }
+
+    &__container-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 120px;
+    }
+
+    &__btn {
+        padding: 16px 39px;
+        background: none;
+        border: 2px solid black; 
+        border-radius: 14px;
+        font-family: 'mons';
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    &__container-awards {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 120px;
+    }
+}

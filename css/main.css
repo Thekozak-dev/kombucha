@@ -1,0 +1,607 @@
+@font-face {
+  font-family: "bebas";
+  src: url("../fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "mons";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+span {
+  display: inline-block;
+}
+
+.header {
+  width: calc(100% - 100px - 100px);
+  margin: 30px auto 0px;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.header__container-menu {
+  display: flex;
+  gap: 50px;
+}
+.header__menu-link {
+  text-decoration: none;
+  font-family: "mons";
+  text-transform: uppercase;
+  color: black;
+}
+.header__menu-link:hover {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+}
+.header__container-logo {
+  display: flex;
+  gap: 20px;
+}
+.header__img-logo:hover {
+  cursor: pointer;
+  background: rgba(235, 198, 68, 0.9);
+}
+.header__container-images {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+.header__container-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background: rgba(235, 198, 68, 0.9);
+  border-radius: 40px;
+}
+.header__txt {
+  font-family: "bebas";
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.header__btn {
+  font-family: "mons";
+  border-radius: 14px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 16px 46px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.story {
+  background: rgb(248, 151, 67);
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+.story__container-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 74px;
+}
+.story__title-small {
+  font-family: "mons";
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+}
+.story__title-big {
+  font-family: "bebas";
+  font-size: 48px;
+  color: white;
+}
+.story__container-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  width: calc(100% - 100px - 100px);
+  margin: 0 auto 185px;
+}
+.story__container-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.story__container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.story__txt-founders {
+  font-family: "mons";
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+}
+.story__txt-title {
+  font-family: "bebas";
+  font-size: 42px;
+  color: white;
+}
+.story__txt-main {
+  font-family: "mons";
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  max-width: 500px;
+}
+.story__wrapper-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story__btn {
+  padding: 16px 43px;
+  font-family: "mons";
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 14px;
+  background: none;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.kombucha {
+  margin-bottom: 80px;
+}
+.kombucha__wrapper-info {
+  width: calc(100% - 100px - 100px);
+  margin: 0 auto 120px;
+  display: flex;
+  gap: 30px;
+}
+.kombucha__container-left {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.kombucha__wrapper-top {
+  display: flex;
+  gap: 30px;
+}
+.kombucha__container-top {
+  background: rgb(248, 151, 67);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  border-radius: 40px;
+  padding: 59px 43px;
+}
+.kombucha__container-bottom {
+  background: rgb(248, 151, 67);
+  display: flex;
+  gap: 12px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 87px 102px;
+  flex-shrink: 0;
+}
+.kombucha__img-circle {
+  width: 40px;
+  height: 40px;
+}
+.kombucha__txt {
+  font-family: "bebas";
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.taste {
+  position: relative;
+  margin-bottom: 120px;
+}
+.taste__wrapper-main {
+  width: calc(100% - 311px - 311px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.taste__wrapper-top {
+  display: flex;
+  gap: 30px;
+}
+.taste__wrapper-bottom {
+  display: flex;
+  gap: 30px;
+}
+.taste__container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.taste__wrapper-txt {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  max-width: 395px;
+}
+.taste__title {
+  font-family: "mons";
+  font-weight: 700;
+  font-size: 18px;
+}
+.taste__txt {
+  font-family: "mons";
+  font-size: 18px;
+  line-height: 27px;
+}
+.taste__img-car {
+  position: absolute;
+  top: 220px;
+  right: 0px;
+}
+.taste__img-large {
+  position: absolute;
+  top: 95px;
+  left: 2px;
+}
+.taste__img-medium {
+  position: absolute;
+  left: 123px;
+  top: 10px;
+}
+.taste__img-small {
+  position: absolute;
+  top: 281px;
+  left: 99px;
+}
+
+.kids__wrapper {
+  width: calc(100% - 100px - 100px);
+  margin: 0px auto 60px;
+  display: flex;
+  gap: 30px;
+}
+.kids__container-right {
+  position: relative;
+  background: rgba(235, 198, 68, 0.9);
+  border-radius: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.kids__container-txt {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+}
+.kids__title {
+  font-family: "bebas";
+  font-size: 42px;
+  line-height: 50px;
+}
+.kids__txt {
+  font-family: "mons";
+  font-size: 18px;
+  line-height: 27px;
+}
+.kids__container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.kids__btn {
+  padding: 16px 39px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 14px;
+  font-family: "mons";
+  font-size: 14px;
+  font-weight: 600;
+}
+.kids__container-awards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.cane {
+  position: relative;
+  margin-bottom: 120px;
+}
+.cane__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: calc(100% - 100px - 100px);
+  margin: 0 auto;
+}
+.cane__container-info {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.cane__title {
+  font-family: "bebas";
+  font-size: 48px;
+  line-height: 57px;
+  max-width: 395px;
+}
+.cane__wrapper-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cane__container-txt {
+  display: flex;
+  align-items: center;
+}
+.cane__btn {
+  font-family: "mons";
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 46px;
+  color: white;
+  background: black;
+  border-radius: 14px;
+}
+.cane__img-large {
+  position: absolute;
+  top: 193px;
+  right: 2px;
+}
+.cane__img-medium {
+  position: absolute;
+  top: 327px;
+  right: 126px;
+}
+.cane__img-small {
+  position: absolute;
+  top: 413px;
+  right: 99px;
+}
+.cane__img-car {
+  position: absolute;
+  top: 529px;
+  left: -15px;
+  z-index: 2;
+}
+
+.flavorus__wrapper {
+  width: calc(100% - 100px - 100px);
+  margin: 0px auto 60px;
+  display: flex;
+  gap: 30px;
+}
+.flavorus__container-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.flavorus__txt-top {
+  font-family: "mons";
+  font-size: 14px;
+  color: rgb(248, 151, 67);
+}
+.flavorus__title-top {
+  font-family: "bebas";
+  font-size: 42px;
+}
+.flavorus__container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.flavorus__wrapper-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.flavorus__container-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.flavorus__title {
+  font-family: "bebas";
+  font-size: 22px;
+}
+.flavorus__txt {
+  font-family: "mons";
+  font-size: 14px;
+  line-height: 21px;
+}
+.flavorus__container-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.flavorus__btn {
+  font-family: "mons";
+  color: white;
+  background: black;
+  border-radius: 14px;
+  padding: 16px 46px;
+}
+
+.alcohol {
+  margin-bottom: 80px;
+}
+.alcohol__wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.alcohol__container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.alcohol__container-title {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+.alcohol__container-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.alcohol__txt-top {
+  font-family: "mons";
+  font-size: 14px;
+  color: rgb(248, 151, 67);
+}
+.alcohol__title-top {
+  font-family: "bebas";
+  font-size: 42px;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding: 0px 220px 0px;
+}
+.alcohol__txt-bottom {
+  font-family: "mons";
+  line-height: 21px;
+  text-align: center;
+  padding: 0px 180px 0px;
+  box-sizing: border-box;
+}
+.alcohol__btn {
+  padding: 16px 39px;
+  border-radius: 14px;
+  background: none;
+  border: 2px solid black;
+  color: black;
+  font-family: "mons";
+  font-weight: 600;
+}
+
+.footer__wrapper-main {
+  background: rgba(237, 204, 87, 0.22);
+}
+.footer__wrapper {
+  width: calc(100% - 100px - 100px);
+  margin: 0px auto 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px 32px;
+  box-sizing: border-box;
+}
+.footer__wrapper-left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footer__container-top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__container-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__container-input {
+  display: flex;
+  gap: 30px;
+}
+.footer__container-img {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.footer__txt-top {
+  font-family: "bebas";
+  font-size: 24px;
+}
+.footer__input {
+  padding: 17px 185px 17px 20px;
+  border: 1px solid black;
+  border-radius: 14px;
+  font-family: "mons";
+  color: rgb(146, 143, 143);
+}
+.footer__btn {
+  border-radius: 14px;
+  color: white;
+  background: black;
+  padding: 16px 46px;
+}
+.footer__txt-bottom {
+  font-family: "bebas";
+  font-size: 24px;
+}
+.footer__wrapper-center {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: center;
+  max-width: 240px;
+}
+.footer__wrapper-right {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer__container-content {
+  display: flex;
+  gap: 8px;
+}
+.footer__container-geo {
+  text-align: left;
+}
+.footer__txt-long {
+  display: inline;
+  max-width: 240px;
+}
+.footer__img {
+  width: 12px;
+  height: 14px;
+}
+.footer__wrapper-right {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 180px;
+}
+.footer__container-link {
+  width: calc(100% - 100px - 100px);
+  margin: 45px auto 45px;
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+.footer__link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-family: "mons";
+}

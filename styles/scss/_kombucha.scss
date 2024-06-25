@@ -1,0 +1,57 @@
+.kombucha {
+    margin-bottom: 80px;
+
+    &__wrapper-info {
+        width: calc(100% - 100px - 100px);
+        margin: 0 auto 120px;
+        display: flex;
+        gap: 30px;
+    }
+
+    &__container-left {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    &__wrapper-top {
+        display: flex;
+        gap: 30px;
+        
+    }
+
+    &__container-top {
+        background: $orange;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: center;
+        border-radius: 40px;
+        padding: 59px 43px;
+
+    }
+
+    &__container-bottom {
+        background: $orange;
+        display: flex;
+        gap: 12px;
+        border-radius: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 87px 102px;
+        flex-shrink: 0;
+    }
+
+    &__img-circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    &__txt {
+        font-family: 'bebas';
+        font-size: 24px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+}

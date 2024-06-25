@@ -1,0 +1,75 @@
+.header {
+    width: calc(100% - 100px - 100px);
+    margin: 30px auto 0px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    &__container-menu {
+        display: flex;
+        gap: 50px;
+    }
+
+
+    &__menu-link {
+        text-decoration: none;
+        font-family: 'mons';
+        text-transform: uppercase;
+        color: black;
+    }
+
+    &__menu-link:hover {
+        background-color: black;
+        cursor: pointer;
+        color: white;
+    }
+
+    &__container-logo {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__img-logo:hover {
+        cursor: pointer;
+        background: $yellow;
+    }
+
+    &__container-images {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 120px;
+    }
+
+    &__container-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        background: $yellow;
+        border-radius: 40px;
+    }
+
+    &__txt {
+        font-family: 'bebas';
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: 2%;
+        text-align: center;
+    }
+
+    &__btn {
+        font-family: 'mons';
+        border-radius: 14px;
+        background: black;
+        color: white;
+        text-transform: uppercase;
+        padding: 16px 46px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}

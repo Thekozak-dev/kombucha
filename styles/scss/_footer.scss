@@ -1,0 +1,128 @@
+.footer {
+
+
+    &__wrapper-main {
+        background: rgba(237, 204, 87, 0.22);
+    }
+    
+
+    &__wrapper {
+        width: calc(100% - 100px - 100px);
+        margin: 0px auto 0px;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0px 32px;
+        box-sizing: border-box;
+    }
+
+    &__wrapper-left {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &__container-top {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__container-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    &__container-input {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__container-img {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+
+    &__txt-top {
+        font-family: 'bebas';
+        font-size: 24px;
+    }
+
+    &__input {
+        padding: 17px 185px 17px 20px;
+        border: 1px solid black;
+        border-radius: 14px;
+        font-family: 'mons';
+        color: rgba(146, 143, 143, 1);
+    }
+
+    &__btn {
+        border-radius: 14px;
+        color: white;
+        background: black;
+        padding: 16px 46px;
+    }
+
+    &__txt-bottom {
+        font-family: 'bebas';
+        font-size: 24px;
+    }
+
+    &__wrapper-center {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        text-align: center;
+        max-width: 240px;
+    }
+
+    &__wrapper-right {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    &__container-content {
+        display: flex;
+        gap: 8px;
+    }
+
+    &__container-geo {
+        text-align: left;
+    }
+
+
+    &__txt-long {
+        display: inline;
+        max-width: 240px;
+    }
+
+    &__img {
+        width: 12px;
+        height: 14px;
+    }
+
+    &__wrapper-right {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        max-width: 180px;
+    }
+
+    &__container-link {
+        width: calc(100% - 100px - 100px);
+        margin: 45px auto 45px;
+        display: flex;
+        gap: 45px;
+        align-items: center;
+    }
+
+    &__link {
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+        font-family: 'mons';
+    }
+}

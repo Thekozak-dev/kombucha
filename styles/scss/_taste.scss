@@ -1,0 +1,74 @@
+.taste {
+
+    position: relative;
+    margin-bottom: 120px;
+
+    &__wrapper-main {
+        width: calc(100% - 311px - 311px);
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    &__wrapper-top {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__wrapper-bottom {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__container-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__wrapper-txt {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        max-width: 395px;
+    }
+
+    &__title {
+        font-family: 'mons';
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    &__txt {
+        font-family: 'mons';
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    &__img-car {
+        position: absolute; 
+        top: 220px;
+        right: 0px
+    }
+
+    &__img-large {
+        position: absolute;
+        top: 95px;
+        left: 2px;
+    }
+
+    &__img-medium {
+        position: absolute;
+        left: 123px;
+        top: 10px;
+    }
+
+    &__img-small {
+        position: absolute;
+        top: 281px;
+        left: 99px;
+    }
+}
